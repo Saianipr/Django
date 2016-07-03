@@ -1,0 +1,11 @@
+{% extends "header.html" %}
+
+{%block content%}
+
+
+{% for c in content%}
+	   <p>{{c}}</p>
+	{% endfor %}
+
+{% include "include/include1.html"%}
+{%endblock%}
